@@ -23,6 +23,9 @@
             </intent-filter>
         </activity>
         <service android:name=".MyService" />
+        <service android:name=".MyForegroundService" />
+        <service android:name=".MyIntentService" />
+        <service android:name=".MyJobService" />
     </application>
 
 </manifest>

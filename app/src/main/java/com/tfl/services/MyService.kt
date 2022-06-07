@@ -25,7 +25,7 @@ class MyService: Service() {
             }
         }
 
-        return super.onStartCommand(intent, flags, startId)
+        return START_REDELIVER_INTENT
     }
 
     override fun onDestroy() {
